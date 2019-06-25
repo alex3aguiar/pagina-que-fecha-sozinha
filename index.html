@@ -8,6 +8,9 @@
     <script>
         window.close();
         open(location, '_self').close();
+        this.focus();
+        self.opener=this;
+        self.close();
         </script>
 </body>
 </html>
